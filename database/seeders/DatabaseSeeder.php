@@ -22,7 +22,6 @@ class DatabaseSeeder extends Seeder
             BookmarkSeeder::class,
             BookmarkDetailsSeeder::class,
             NotificationSeeder::class,
-            SeededUsersSeeder::class,
         ]);
     }
 }
