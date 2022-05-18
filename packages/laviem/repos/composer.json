@@ -1,0 +1,27 @@
+{
+    "name": "laviem/repos",
+    "description": "",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "me",
+            "email": "send@here.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "LaviemRepos\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaviemRepos\\LaviemReposServiceProvider",
+                "LaviemRepos\\Providers\\BookmarkRepositoryServiceProvider"
+            ]
+        }
+    }
+}
